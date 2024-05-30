@@ -1,0 +1,11 @@
+
+s
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8ÁÑŞ˜ü1J$ca57250f-e38b-43be-a48e-ce0fc84df681
+{
+java:S1128	"8Remove this unused import 'javax.persistence.FetchType'.(‡¯¿8‚¸Í¯ü1J$7a8439be-cff7-4a88-8200-547aac05e4a6
+€
+java:S1128"8Remove this unused import 'javax.persistence.ManyToOne'.(ÇÑ²øÿÿÿÿ8ÁÑŞ˜ü1J$9582687d-f8c8-46ed-99f0-11bb484b0031
+z
+java:S1128"8Remove this unused import 'javax.persistence.OneToMany'.(«õù;8ÁÑŞ˜ü1J$8d7ada58-100e-4362-9a7c-ed89071316d7
+†
+java:S1128"CRemove this unused import 'javax.persistence.PrimaryKeyJoinColumn'.(Ğó§í8³Œ¯ü1J$ac44a920-17d6-4bf2-832c-f432e620ed89

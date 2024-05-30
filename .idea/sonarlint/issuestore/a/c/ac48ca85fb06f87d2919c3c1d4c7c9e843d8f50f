@@ -1,0 +1,13 @@
+
+s
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8óÑŸšü1J$77b466e0-c9ef-4cbe-a31c-41bb5e7e0f42
+„
+java:S1128"<Remove this unused import 'javax.persistence.criteria.Join'.(Ã’¥æıÿÿÿÿ8ôÑŸšü1J$66bb1581-775a-4a67-9b97-10e597957790
+‰
+java:S1128"ARemove this unused import 'javax.persistence.criteria.Predicate'.(«úÿÿÿÿ8ôÑŸšü1J$3cb1f8c3-863c-4f25-9dc9-976d90b9a140
+‘
+java:S1128	"NRemove this unused import 'org.springframework.data.jpa.domain.Specification'.(¾ñÕÄ8ôÑŸšü1J$5cd7c2c2-0819-470e-9241-76258655c96e
+
+java:S1128"ERemove this unused import 'com.ecommerce.dao.entity.ProductMetadata'.(ˆ² ñüÿÿÿÿ8õÑŸšü1J$28cc7e3d-f74a-47dc-b5c5-343f06cf6cb6
+~
+java:S1128";Remove this unused import 'com.ecommerce.dao.entity.Shelf'.(óú°Á8õÑŸšü1J$b6dcbc54-2a68-4ba6-bcf4-08e4b16e31db

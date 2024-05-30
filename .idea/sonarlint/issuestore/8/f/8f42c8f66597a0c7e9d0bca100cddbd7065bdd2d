@@ -1,0 +1,20 @@
+
+Œ	java:S117("QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ıÀÈÿJ$0429a1ba-8fd4-4159-b725-2b5a924f9aeb
+‰	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(è»ëôJ$53454620-b3ab-468f-9848-4ac840bbbee2
+ƒ
+java:S6830"GRename this bean to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½ƒ±J$6ce96af3-f92e-4fe6-8ad8-00f56d2fe038
+ƒ
+java:S6830&"GRename this bean to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«ù¤éJ$9c8a0c85-b925-4205-80c5-4d68bb5b2b05
+ƒ
+java:S6830("GRename this bean to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ıÀÈÿJ$2b8a2a47-f6b8-49d2-9282-139aed31c0d0
+›
+java:S1128"SRemove this unused import 'org.springframework.beans.factory.annotation.Autowired'.(¡¸Îùÿÿÿÿ8Ğê…ğû1J$def34cc0-c32f-42ff-b79a-454c0daa506f
+£
+java:S1128"`Remove this unused import 'org.springframework.boot.context.properties.ConfigurationProperties'.(¦Õ¸Ç8†©…ğû1J$79a6a484-e681-46f2-abb8-ae66c4498eb4
+
+java:S1128"LRemove this unused import 'org.springframework.boot.jdbc.DataSourceBuilder'.(Í÷í8Š©…ğû1J$5bd53ff2-71b2-43ab-ac40-c3bba3695250
+
+java:S1128
+"KRemove this unused import 'org.springframework.context.annotation.Primary'.(“ğ›ß8Š©…ğû1J$70f0d82f-9cf5-4688-8b13-cfe7199252c1
+ˆ
+java:S1128"ERemove this unused import 'org.springframework.core.env.Environment'.(¹‡¨¹8Ñê…ğû1J$4a4796f4-e12a-4939-87df-949f2394d55b

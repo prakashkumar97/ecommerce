@@ -1,0 +1,11 @@
+
+}
+java:S1128":Remove this unused import 'javax.persistence.CascadeType'.( ì¤Ê8¿‘‰ü1J$59913704-1c21-45f4-b2b1-f64f9a1ff800
+|
+java:S1128"9Remove this unused import 'javax.persistence.JoinColumn'.(´Å¼á8ñªŠ¯ü1J$b96a9440-e627-4e36-bb0f-6ec5e020a427
+€
+java:S1128"8Remove this unused import 'javax.persistence.ManyToOne'.(ÇÑ²øÿÿÿÿ8¿‘‰ü1J$434f9b38-7031-46f9-96e8-1a95ef7c49a5
+x
+java:S1128"5Remove this unused import 'javax.persistence.MapsId'.(²Û¢ˆ8ñªŠ¯ü1J$d83961d9-be90-493c-98a1-6abf9a26b1a5
+z
+java:S1128"7Remove this unused import 'javax.persistence.OneToOne'.(Ø½ïâ8ñªŠ¯ü1J$d34d7dbe-0f16-49bf-9046-8cdeba10939a
