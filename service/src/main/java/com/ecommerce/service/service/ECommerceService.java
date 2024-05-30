@@ -2,7 +2,10 @@ package com.ecommerce.service.service;
 
 import java.util.Collections;
 import java.util.List;
+import java.util.Objects;
 import java.util.stream.Collectors;
+
+import javax.transaction.Transactional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.Cacheable;
@@ -24,6 +27,7 @@ import lombok.extern.slf4j.Slf4j;
 
 @Service
 @Slf4j
+@Transactional
 public class ECommerceService {
 
     @Autowired
@@ -56,6 +60,7 @@ public class ECommerceService {
         com.ecommerce.dao.entity.ShopperDetails cachedShopperDetails = getCachedShopperDetails(shopperId);
         return cachedShopperDetails.getShelf() != null ? cachedShopperDetails.getShelf()
                 .stream()
+                .filter(shelf -> Objects.nonNull(shelf.getProductMetadata()))
                 .filter(shelf -> validateProductMetadata(category, brand, shelf.getProductMetadata()))
                 .map(shelf -> eCommerceResponseMapper.mapProductMetaDataResponse(shelf.getProductMetadata()))
                 .limit(limit)
