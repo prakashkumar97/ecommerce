@@ -5,7 +5,6 @@ import java.util.List;
 import javax.validation.constraints.Max;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -24,7 +23,6 @@ public class ECommerceController {
     @Autowired
     ECommerceService eCommerceService;
 
-
     @PostMapping("/saveShopperDetails")
     public ShopperDetails saveShopperDetails(@RequestBody com.ecommerce.dao.entity.ShopperDetails shopperDetails) {
 
@@ -38,7 +36,7 @@ public class ECommerceController {
     }
 
     @GetMapping("/getProductsByShopper")
-    public List<com.ecommerce.dao.entity.ShopperDetails> getProductsByShopper(@RequestParam String shopperId,
+    public List<ProductMetaData> getProductsByShopper(@RequestParam String shopperId,
                                                                               @RequestParam(required = false) Category category,
                                                                               @RequestParam(required = false) String brand,
                                                                               @RequestParam(required = false, defaultValue = "10")

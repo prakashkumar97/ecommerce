@@ -10,18 +10,21 @@ import com.ecommerce.service.model.ProductMetaData;
 import com.ecommerce.service.model.Shelf;
 import com.ecommerce.service.model.ShopperDetails;
 
+import lombok.extern.slf4j.Slf4j;
+
 @Component
+@Slf4j
 public class ECommerceResponseMapper {
 
     public ProductMetaData mapProductMetaDataResponse(ProductMetadata productMetadata) {
-
-        return new ProductMetaData(productMetadata.getProductId(), productMetadata.getCategory(),
-                                   productMetadata.getBrand());
+        log.info("Mapping ProductMetadata entity to model response.");
+        return new ProductMetaData(productMetadata.getProductId(), productMetadata.getCategory(), productMetadata.getBrand());
 
     }
 
     public ShopperDetails mapShopperDetailsResponse(com.ecommerce.dao.entity.ShopperDetails shopperDetails) {
 
+        log.info("Mapping ShopperDetails entity to model response.");
         ShopperDetails shopperDetailsResponse = new ShopperDetails(shopperDetails.getShopperId());
         if(Objects.nonNull(shopperDetails)) {
 

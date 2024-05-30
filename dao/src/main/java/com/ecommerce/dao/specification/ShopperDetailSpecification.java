@@ -4,11 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 import javax.persistence.criteria.Join;
-import javax.persistence.criteria.JoinType;
 import javax.persistence.criteria.Predicate;
-import javax.transaction.Transactional;
 
-import org.springframework.context.annotation.ComponentScan;
 import org.springframework.data.jpa.domain.Specification;
 import org.springframework.stereotype.Component;
 
@@ -31,7 +28,8 @@ public class ShopperDetailSpecification {
 
             // Add filterations on the tables
             predicates.add(criteriaBuilder.equal(root.get("shopperId"), shopperId));
-            predicates.add(criteriaBuilder.equal(shelfProductMetadataJoin.get("category"), productCategory));
+            if(productCategory != null)
+                predicates.add(criteriaBuilder.equal(shelfProductMetadataJoin.get("category"), productCategory));
             if(productBrand != null)
                 predicates.add(criteriaBuilder.equal(shelfProductMetadataJoin.get("brand"), productBrand));
 

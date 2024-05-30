@@ -1,21 +1,16 @@
 package com.ecommerce.dao.entity;
 
 import java.io.Serializable;
-import java.util.List;
 
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
-import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Index;
 import javax.persistence.JoinColumn;
-import javax.persistence.ManyToOne;
-import javax.persistence.OneToMany;
 import javax.persistence.OneToOne;
-import javax.persistence.PrimaryKeyJoinColumn;
 import javax.persistence.Table;
 
 @Entity(name = "shelf")
@@ -30,7 +25,7 @@ public class Shelf implements Serializable {
    @Column(name = "shelf_id")
    private Long shelfId;
 
-   @Column(name = "shopper_product_id")
+   @Column(name = "shopper_product_id", nullable = false)
    private String productId;
 
    @Column(name = "relevancy_score")

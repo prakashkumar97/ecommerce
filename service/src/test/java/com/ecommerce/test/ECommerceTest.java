@@ -28,7 +28,7 @@ public class ECommerceTest {
     public void testSaveProductMetadata() {
         ProductMetadata productMetadata = new ProductMetadata();
         productMetadata.setProductId("123");
-        productMetadata.setCategory(Category.Babies);
+        productMetadata.setCategory(Category.BABIES);
         productMetadata.setBrand("Test");
 
         ProductMetaData productMetaDataResponse = eCommerceController.saveProductMetadata(productMetadata);

@@ -2,5 +2,4 @@ rootProject.name = 'ecommerce'
 include 'dao'
 include 'service'
 include 'common'
-include 'service1'
 

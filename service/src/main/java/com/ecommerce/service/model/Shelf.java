@@ -1,28 +1,22 @@
 package com.ecommerce.service.model;
 
-public class Shelf {
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import com.fasterxml.jackson.annotation.JsonInclude;
 
-    public Shelf(String productId, String relevancyScore) {
-        this.productId = productId;
-        this.relevancyScore = relevancyScore;
-    }
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
+
+@Getter
+@Setter
+@AllArgsConstructor
+@ToString
+@JsonIgnoreProperties(ignoreUnknown = true)
+@JsonInclude(JsonInclude.Include.NON_NULL)
+public class Shelf {
 
     private String productId;
     private String relevancyScore;
 
-    public String getProductId() {
-        return productId;
-    }
-
-    public void setProductId(String productId) {
-        this.productId = productId;
-    }
-
-    public String getRelevancyScore() {
-        return relevancyScore;
-    }
-
-    public void setRelevancyScore(String relevancyScore) {
-        this.relevancyScore = relevancyScore;
-    }
 }
